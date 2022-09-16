@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sfondo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlvzThdqUTifD8MUFlE7mDZ-HrluRDsFIVQw&usqp=CAU" alt="calcolatrice">
+    <div id="calcolatrice">
+        
+        <input type="text" id=barraCalcolatrice  readonly placeholder="Partiamo!">
+   
+<div id="contenitorOfButton">
+
+    <button onclick="scriviIlNumero('7')">7</button>
+    <button onclick="scriviIlNumero('8')">8</button>
+    <button onclick="scriviIlNumero('9')">9</button>
+    <button onclick="scriviIlNumero('/')">/</button> <br>
+    <button onclick="scriviIlNumero('4')">4</button>
+    <button onclick="scriviIlNumero('5')">5</button>
+    <button onclick="scriviIlNumero('6')">6</button>
+    <button onclick="scriviIlNumero('*')">*</button> <br>
+    <button onclick="scriviIlNumero('1')">1</button>
+    <button onclick="scriviIlNumero('2')">2</button>
+    <button onclick="scriviIlNumero('3')">3</button>
+    <button onclick="scriviIlNumero('-')">-</button> <br>
+    <button onclick="Cancellare()">C</button>
+    <button onclick="scriviIlNumero('0')">0</button>
+    <button onclick="scriviIlNumero('.')">.</button>
+    <button onclick="scriviIlNumero('+')">+</button> <br>
+    <button id="BottoneCorrispondente" onclick="vedereRisultato()">=</button>
+</div>
+</div>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

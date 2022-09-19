@@ -17,8 +17,6 @@ function Cancellare() {
     document.getElementById('barraCalcolatrice').value = ''
   }
 
-function cambiamentoDiErrore (){
-    
-}
+
 
 
